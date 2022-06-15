@@ -1,0 +1,48 @@
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, .3);
+}
+
+.site-layout .site-layout-background {
+  background: #ffffff;
+}
+
+.layout-header {
+  position: relative;
+  height: 48px;
+  padding: 0;
+  border-bottom: 2px solid #1e90ff;
+}
+
+.layout-header-title {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #888888;
+}
+
+.layout-header-title .leave {
+  border: none;
+  padding: 0;
+  margin-left: 20px;
+  font-size: 15px;
+  color: #1e90ff;
+}
+
+.layout-breadNav {
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.layout-footer {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #bbbbbb;
+}
